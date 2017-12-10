@@ -56,7 +56,7 @@ describe Simon do
 
       it 'calls #round_success_message' do
         expect(simon).to receive(:round_success_message)
-        simon.take_turn
+        simontake._turn
       end
 
       it 'increments the sequence length' do
