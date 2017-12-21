@@ -69,7 +69,7 @@ def pulp_fiction_actors
   # hint: use 'select', 'joins', 'where'
   Actor
     .select(:id, :name)
-    joins(:movies)
+    .joins(:movies)
     .where('title = \'Pulp Fiction\'')
 
 end
