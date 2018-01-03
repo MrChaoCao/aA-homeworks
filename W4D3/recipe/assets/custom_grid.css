@@ -39,10 +39,15 @@ with a class attribute containing 'col-' */
   clear: both;
 }
 
+.hamburger-dropdown {
+  display: none;
+}
+
+
 /* CSS Day 6 media queries */
 @media all and (max-width: 900px) {
   [class*='col-'] {
     width: 100%;
   }
-}
 
+}
